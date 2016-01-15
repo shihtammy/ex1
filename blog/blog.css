@@ -1,0 +1,82 @@
+* {
+	margin: 0;
+	padding: 0;
+	}
+		
+body{
+	background-color: dimgray;
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-position: left;
+	text-align: center;
+	}
+a{
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-weight: 300;
+	font-size: 23px; 
+	color:grey; 
+	text-decoration:none;
+	}
+a:visited{
+	color:grey;
+	}
+a:hover{
+	color:#fff; 
+	}
+	
+header{
+	list-style-type:none;
+	margin-top:35px;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+    color:darkgrey;
+	font-weight: 300;
+	font-size: 50px; 
+	}	
+	
+img:hover{
+	opacity: 0.3;
+	transition-duration: .5s;
+	}
+
+#container {
+		width:900px; 
+		margin:0 auto;
+		margin-top:25px; 
+		padding:30px;  
+		font-size:20px; 
+		border-radius: 15px;
+		}
+
+h2{
+	margin-top:20px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+    font-size: 16px;
+	color:white; 
+	text-decoration:none;
+	}
+
+p{
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 13px; 
+	color:#fff;
+	text-decoration:none;
+	}
+
+#media img:hover{
+	opacity: 0.3;
+	transition-duration: .5s;
+	}
+	
+#media{
+	display:block;
+	margin:auto;
+	position:relative;
+	width:100%;
+    bottom:0px;
+	}
+	
+	
+

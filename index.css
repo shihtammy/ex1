@@ -1,0 +1,54 @@
+body{
+	background-color:dimgray;
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+    margin: auto
+	}
+a{
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 300;
+	font-size: 13px; 
+	text-decoration:none;
+	}
+a:visited{
+	color:whitesmoke;
+	}
+a:hover{
+	color:darkgray; 
+	}
+
+#wrapper {
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 300;
+	font-size: 13px; 
+	color:white; 
+    padding-right: 200px;
+}
+
+#rightcolumn {
+    padding-top: 400px;
+    float:right;
+}
+
+#leftcolumn {
+    padding-top: 400px;
+    float: right;
+}
+
+#media img:hover{
+	opacity: 0.3;
+	transition-duration: .5s;
+	}
+	
+#media{
+	display:block;
+    text-align: center;
+	margin:auto;
+	position:fixed;
+	width:100%;
+    bottom:0px;
+	}
+	
+	
+	
