@@ -5,10 +5,6 @@
 		
 body{
 	background-color: dimgray;
-	background-size:cover;
-	background-repeat:no-repeat;
-	background-attachment:fixed;
-	background-position: left;
 	text-align: center;
 	}
 a{
@@ -27,11 +23,11 @@ a:hover{
 	
 header{
 	list-style-type:none;
-	margin-top:35px;
+	margin-top:25px;
 	font-family: 'Yanone Kaffeesatz', sans-serif;
     color:darkgrey;
 	font-weight: 300;
-	font-size: 50px; 
+	font-size: 45px; 
 	}	
 	
 img:hover{
@@ -40,7 +36,7 @@ img:hover{
 	}
 
 #container {
-		width:900px; 
+		width:700px; 
 		margin:0 auto;
 		margin-top:25px; 
 		padding:30px;  
@@ -73,7 +69,7 @@ p{
 #media{
 	display:block;
 	margin:auto;
-	position:relative;
+	position:fixed;
 	width:100%;
     bottom:0px;
 	}
