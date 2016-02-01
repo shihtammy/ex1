@@ -5,7 +5,7 @@
 		
 body{
 	background-color: dimgray;
-	text-align: center;
+	text-align: left;
 	}
 a{
 	font-family: 'Yanone Kaffeesatz', sans-serif;
@@ -19,30 +19,38 @@ a:visited{
 	}
 a:hover{
 	color:#fff; 
+    opacity: 0.5;
+	transition-duration: .5s;
 	}
 	
-header{
+h1{
 	list-style-type:none;
 	margin-top:25px;
 	font-family: 'Yanone Kaffeesatz', sans-serif;
     color:darkgrey;
 	font-weight: 300;
 	font-size: 45px; 
-	}	
-	
-img:hover{
-	opacity: 0.3;
-	transition-duration: .5s;
+    text-align: center;
 	}
 
+img {
+    padding-top: 20px;
+}
+
 #container {
-		width:700px; 
+		width:800px; 
 		margin:0 auto;
 		margin-top:25px; 
 		padding:30px;  
 		font-size:20px; 
 		border-radius: 15px;
 		}
+
+hr {
+    width: 100%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
 
 h2{
 	margin-top:20px;
@@ -70,8 +78,8 @@ p{
 	display:block;
 	margin:auto;
 	position:fixed;
-	width:100%;
-    bottom:0px;
+    left: 10px;
+    bottom:5px;
 	}
 	
 	
