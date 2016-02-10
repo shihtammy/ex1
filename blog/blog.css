@@ -82,5 +82,12 @@ p{
     bottom:20px;
 	}
 	
+footer {
+    display:block;
+	margin:auto;
+	position:fixed;
+    left: 3px;
+    bottom:0px;
+}
 	
 
