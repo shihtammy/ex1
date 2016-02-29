@@ -37,6 +37,7 @@ header#mySketch {
 #rightcolumn {
     width:300px;
     margin-top: 55px;
+    padding-bottom: 100px;
     float:left;
 }
 
@@ -46,14 +47,15 @@ header#mySketch {
     float: left;
 }
 
-a{
+section a{
 	font-size: 13px; 
 	text-decoration:none;
+    color:whitesmoke;
 	}
-a:visited{
+section a:visited{
 	color:whitesmoke;
 	}
-a:hover{
+section a:hover{
 	color:darkgray;
     text-decoration:overline;
 	}
@@ -64,15 +66,36 @@ a:hover{
 	}
 	
 #media{
-    font-family: 'Open Sans', sans-serif;
-	font-size: 9px;
-    
 	display:block;
-    text-align: center;
+    text-align: right;
 	margin:auto;
 	position:fixed;
     width:100%;
-    bottom: 0px;
+    right: 10px;
+    bottom: 3px;
 	}
 
+footer {
+    display:block;
+	margin:auto;
+	position:fixed;
+    left: 3px;
+    bottom:0px;
+}
+
+footer a{
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-weight: 300;
+	font-size: 23px; 
+	color:grey; 
+	text-decoration:none;
+	}
+footer a:visited{
+	color:grey;
+	}
+footer a:hover{
+	color:#fff; 
+    opacity: 0.5;
+	transition-duration: .5s;
+	}
 
